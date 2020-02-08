@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailPromo.detailPromoItem"
+    android:orientation="vertical">
+
+   <androidx.appcompat.widget.AppCompatImageView
+       android:layout_width="match_parent"
+       android:layout_height="400dp"
+       android:id="@+id/id_image_detai_item_promo"
+       android:src="@mipmap/properti">
+
+   </androidx.appcompat.widget.AppCompatImageView>
+
+
+
+</LinearLayout>

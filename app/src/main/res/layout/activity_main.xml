@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#EFF0E3">
+
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:id="@+id/id_recyler_view">
+
+</androidx.recyclerview.widget.RecyclerView>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#E4DCDB"
+        android:layout_gravity="center"
+
+        >
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+              <androidx.appcompat.widget.AppCompatImageView
+                  android:layout_width="70dp"
+                  android:layout_height="70dp"
+                  android:src="@mipmap/sayuran"
+                  android:id="@+id/id_image_nav_satu"
+                  android:layout_margin="10dp"
+                  >
+
+              </androidx.appcompat.widget.AppCompatImageView>
+
+              <androidx.appcompat.widget.AppCompatTextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/buah"
+                  android:gravity="center"
+                  android:layout_marginBottom="5dp">
+
+              </androidx.appcompat.widget.AppCompatTextView>
+          </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical">
+
+         <androidx.appcompat.widget.AppCompatImageView
+             android:layout_width="70dp"
+             android:layout_height="70dp"
+             android:src="@mipmap/buku"
+             android:id="@+id/id_image_nav_dua"
+             android:layout_margin="10dp">
+
+         </androidx.appcompat.widget.AppCompatImageView>
+         <androidx.appcompat.widget.AppCompatTextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="@string/buku"
+             android:gravity="center"
+             android:layout_marginBottom="5dp">
+
+         </androidx.appcompat.widget.AppCompatTextView>
+
+     </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@mipmap/properti"
+        android:id="@+id/id_image_nav_tiga"
+        android:layout_margin="10dp">
+
+    </androidx.appcompat.widget.AppCompatImageView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/properti"
+        android:gravity="center"
+        android:layout_marginBottom="5dp">
+
+    </androidx.appcompat.widget.AppCompatTextView>
+
+</LinearLayout>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

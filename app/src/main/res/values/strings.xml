@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Tugas Akhir</string>
+    <string name="nama_sayuran">Nama Sayuran  :  Wortel</string>
+    <string name="harga_sayuran_kg_20_000">Harga Sayuran / kg : 20.000</string>
+    <string name="beli">Beli</string>
+    <string name="total_bayar">Total Bayar</string>
+    <string name="tutup">Tutup</string>
+    <string name="detail_buku">Detail Buku</string>
+    <string name="harga_buku_rp_35_000">Harga buku : Rp 35.000</string>
+    <string name="penulis_manin">Penulis     : Manin</string>
+    <string name="nama_buku_tutorial_android_api">Nama buku : Tutorial Android Api</string>
+    <string name="masulan_jumlah_yang_dibeli">Masulan jumlah yang dibeli</string>
+    <string name="and">Android</string>
+    <string name="no_telp">No Telpon : 0858 8660 9170</string>
+    <string name="alamat_bogor">Alamat : Bogor</string>
+    <string name="nama_manin">Nama : Manin</string>
+    <string name="rating_akun">Rating Akun</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="kembali">Kembali</string>
+    <string name="cari">cari</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="masuk">Masuk</string>
+    <string name="buah">Buah</string>
+    <string name="buku">Buku</string>
+    <string name="properti">Properti</string>
+</resources>
